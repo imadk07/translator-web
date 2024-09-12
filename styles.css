@@ -105,3 +105,32 @@ input:checked + .slider:before {
 .dark-mode h1 {
   color: #e2e2b6;
 }
+
+/* Search styles */
+.searchcontainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#searchinput {
+  padding: 10px;
+  border: 1px solid #03346e;
+  border-radius: 7px;
+  width: 200px;
+}
+
+#searchbutton {
+  padding: 10px 10px;
+  background-color: #e2e2b6;
+  border-radius: 7px;
+  color: #03346e;
+  cursor: pointer;
+  display: block;
+  margin-left: 2px;
+}
+#searchbutton:hover {
+  background-color: #03346e;
+  color: #e2e2b6;
+}
