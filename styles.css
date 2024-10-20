@@ -16,11 +16,11 @@ h1 {
 #findbutton {
   padding: 10px 20px;
   background-color: #e2e2b6;
-  border-radius: 15px;
+  border-radius: 7px;
   color: #03346e;
   cursor: pointer;
   display: block;
-  margin: 20px auto;
+  margin: 2px;
 }
 
 #findbutton:hover {
@@ -133,4 +133,19 @@ input:checked + .slider:before {
 #searchbutton:hover {
   background-color: #03346e;
   color: #e2e2b6;
+}
+
+nav {
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+nav a {
+  color: #6e0303;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #2196f3;
 }
